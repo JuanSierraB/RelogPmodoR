@@ -1,19 +1,17 @@
 # RelogPmodoR
 Un temporizador Pomodoro implementado con arquitectura MVC (Modelo-Vista-Controlador) utilizando React y Vite. Esta aplicación te ayuda a gestionar tu tiempo de trabajo y descanso mediante la técnica Pomodoro.
 
-![Pomodoro Timer Screenshot](screenshot.png)
+## Características
 
-## 🚀 Características
+- Temporizador de 25 minutos para trabajo y 5 minutos para descanso
+- Cambio automático entre modos de trabajo y descanso
+- Notificaciones sonoras al completar ciclos
+- Interfaz de usuario atractiva con animaciones
+- Tema verde relajante para la vista
+- Diseño responsive
+- Arquitectura MVC para una mejor organización del código
 
-- ⏱️ Temporizador de 25 minutos para trabajo y 5 minutos para descanso
-- 🔄 Cambio automático entre modos de trabajo y descanso
-- 🔔 Notificaciones sonoras al completar ciclos
-- 💻 Interfaz de usuario atractiva con animaciones
-- 🎨 Tema verde relajante para la vista
-- 📱 Diseño responsive
-- 🏗️ Arquitectura MVC para una mejor organización del código
-
-## 🧱 Arquitectura MVC
+## Arquitectura MVC
 
 Este proyecto sigue el patrón Modelo-Vista-Controlador:
 
@@ -21,7 +19,7 @@ Este proyecto sigue el patrón Modelo-Vista-Controlador:
 - **Vista**: Componentes de UI (TimerDisplay, ControlButtons, ModeSelector)
 - **Controlador**: Conecta el modelo con la vista (TimerController)
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 - React 18
 - Vite
@@ -31,13 +29,13 @@ Este proyecto sigue el patrón Modelo-Vista-Controlador:
 - Lucide React para iconos
 - Prettier para formateo de código
 
-## 📋 Requisitos Previos
+## Requisitos Previos
 
 - Node.js (v14 o superior)
 - npm o yarn
 - Git
 
-## 🔧 Instalación
+## Instalación
 
 1. Clona el repositorio:
 ```bash
@@ -61,7 +59,7 @@ yarn dev
 
 4. Abre tu navegador en [http://localhost:5173](http://localhost:5173)
 
-## 📦 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 pomodoro-timer/
@@ -80,7 +78,7 @@ pomodoro-timer/
 └── ...                      # Archivos de configuración
 ```
 
-## 🚢 Deployment
+## Deployment
 
 Este proyecto está configurado para ser desplegado en Vercel:
 
@@ -91,11 +89,11 @@ Este proyecto está configurado para ser desplegado en Vercel:
    - Install Command: `npm install`
 3. ¡Despliega!
 
-## 📝 Gestión del Proyecto
+## Gestión del Proyecto
 
 Este proyecto utiliza GitHub Projects para la gestión de tareas. Puedes ver el tablero del proyecto [aquí](https://github.com/tu-usuario/pomodoro-timer/projects/1).
 
-## 🔍 Scripts Disponibles
+## Scripts Disponibles
 
 - `npm run dev`: Inicia el servidor de desarrollo
 - `npm run build`: Construye la aplicación para producción
@@ -103,7 +101,7 @@ Este proyecto utiliza GitHub Projects para la gestión de tareas. Puedes ver el 
 - `npm run lint`: Ejecuta el linter para encontrar problemas
 - `npm run format`: Formatea el código usando Prettier
 
-## 🤝 Contribuir
+## Contribuir
 
 1. Haz un fork del repositorio
 2. Crea una rama para tu función (`git checkout -b feature/amazing-feature`)
@@ -111,10 +109,10 @@ Este proyecto utiliza GitHub Projects para la gestión de tareas. Puedes ver el 
 4. Haz push a la rama (`git push origin feature/amazing-feature`)
 5. Abre un Pull Request
 
-## 📄 Licencia
+## Licencia
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo `LICENSE` para más información.
 
 ---
 
-Hecho con ❤️ por [Tu Nombre]
+Hecho con por Juan C. Sierra
